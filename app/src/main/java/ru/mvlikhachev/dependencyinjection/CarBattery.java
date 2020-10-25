@@ -2,9 +2,7 @@ package ru.mvlikhachev.dependencyinjection;
 
 import javax.inject.Inject;
 
-public class CarBattery {
+public interface CarBattery {
 
-    @Inject
-    public CarBattery() {
-    }
+    void logBatteryType();
 }

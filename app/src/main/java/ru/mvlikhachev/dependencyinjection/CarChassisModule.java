@@ -7,7 +7,7 @@ import dagger.Provides;
 public class CarChassisModule {
 
     @Provides
-    CarChassis provideCarChassis() {
+    static CarChassis provideCarChassis() {
         return new CarChassis();
     }
 
